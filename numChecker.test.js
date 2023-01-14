@@ -11,6 +11,6 @@ test('Checks if a given number is actually prime',()=>{
 test('Checks if a given number is actually Armstrong',()=>{
     expect(numChecker.isArmstrong(371)).toBe(true);
     expect(numChecker.isArmstrong(407)).toBe(true);
-    expect(numChecker.isArmstrong(511)).toBe(true);
-    expect(numChecker.isArmstrong(370)).toBe(false);
+    expect(numChecker.isArmstrong(511)).toBe(false);
+    expect(numChecker.isArmstrong(370)).toBe(true);
 })
